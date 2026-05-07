@@ -1,0 +1,20 @@
+public class point{
+    public static void main(String[]args){
+        int power=20;
+        int ninja=30;
+        int bottle=40;
+        System.out.println("before swaping:");
+        System.out.println("power:"+power);
+        System.out.println("ninja:"+ninja);  
+        System.out.println("bottle:"+bottle);
+        int temp=power;
+            power=ninja;
+            ninja=bottle;
+            bottle=temp;
+          System.out.println("after swaping:");
+           System.out.println("power:"+power);
+        System.out.println("ninja:"+ninja);  
+        System.out.println("bottle:"+bottle);
+        
+    }
+}
