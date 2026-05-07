@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner s=new Scanner(System.in);
+       System.out.print("enter the number of monkeys: ");
+       int n=s.nextInt();
+       System.out.print("enter the number of bananas monkey can eat: ");
+       int k=s.nextInt();
+       System.out.print("enter the number of peanuts monkey can eat: ");
+       int j=s.nextInt();
+       System.out.print("enter the total number of bananas : ");
+       int m=s.nextInt();
+       System.out.print("enter the total number of peanuts : ");
+       int p=s.nextInt();
+       int MD=((m/k)+(p/j));
+       n=n-MD;
+       if((m%k==0)&&(p%j==0)){
+         System.out.println("the total number of monkeys left in the tree:"+n);}
+        else{
+          n--;
+          System.out.println("the total number of monkeys left in the tree:"+n);
+        }      
+         
+       }
+      }
+    
