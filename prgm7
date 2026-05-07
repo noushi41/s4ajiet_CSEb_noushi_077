@@ -1,0 +1,13 @@
+class Main {
+    public static void main(String[] args) {
+      
+      int num=234567;
+        int lar=0;
+        while(num>0){
+       int  d=num%10;
+        if(d>lar){
+          lar=d;}
+          num=num/10;}
+        System.out.println("largest digit is:"+lar);
+    }
+}
