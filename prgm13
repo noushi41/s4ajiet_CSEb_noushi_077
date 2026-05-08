@@ -1,0 +1,17 @@
+public class bottle(){
+    String brand;
+    String color;
+    int volume;
+    
+    Boolean isEmpty;
+    Boolean isFull;
+    Boolean isOpen;
+    Boolean isClose;
+    
+    public void Opencap(){
+       System.out.println("open a cap");
+         this.isOpen=true;
+         this.isClose=false;
+    
+    }
+}
